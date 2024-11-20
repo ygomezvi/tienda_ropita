@@ -1,0 +1,7 @@
+@startuml
+Title Diagrama Estado Prenda
+[*] --> Nuevo : Estado inicial de la temporada
+Nuevo -> Promocion  : A mitad de temporada
+Promocion -> Liquidación : Al final de la temporada
+Liquidación --> [*]
+@enduml

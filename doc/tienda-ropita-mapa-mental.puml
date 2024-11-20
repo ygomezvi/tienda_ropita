@@ -1,0 +1,21 @@
+@startmindmap
+* Tienda Ropita
+** Prenda
+*** Precio Base Venta
+*** Estado Prenda
+**** Nueva: Precio Base Venta
+**** Promocion: Precio Base Venta - valor fijo decidido por el usuario.
+**** Liquidacion: Precio Base Venta - 50% del valor del producto.
+*** Tipo Prenda
+**** Pantalon
+**** Camisa
+**** Sacos
+**** etc
+** Venta
+*** Calcular Ganancias por un día (fecha)
+*** Conjunto de Prendas y cantidad de cada una (p*q)
+*** Fechas de la venta
+*** Medio de Pago
+**** Efectivo: no hay recargo
+**** Tarjeta: se le aplica un recargo según la cantidad de cuotas seleccionadas \n(cantidad de cuotas * un coeficientefijo + 0.01 del valor de cada prenda)
+@endmindmap
